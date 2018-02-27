@@ -1,0 +1,76 @@
+<html>
+  <head>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="script.js"></script>
+    
+    <style>
+      .head {
+        font-size: 40px;
+        text-align: center; 
+        padding-top: 30px;
+        font-family: 'comic sans ms';
+      }
+      .box {
+        position: relative;
+        margin: 8% auto auto auto;
+        width: 450px;
+        padding: 50px 50px;
+        background-color: #D3D3D3;
+        border-radius: 20px;
+      }
+      body {
+        background-color: 	#E6E6FA;
+      }
+      .quote {
+        text-align: center;
+        font-weight: 500;
+        font-size: 1.0em;
+        font-family: 'comic sans ms';
+      }
+      .author {
+        float: right;
+        height: auto;
+        font-weight: 100;
+        font-size: 20px;
+        font-family: 'comic sans ms';
+      }
+      .fa {
+        padding-right: 15px;
+        cursor: pointer;
+      }
+      .btn {
+        background-color: #D3D3D3;
+        font-family: 'comic sans ms';
+        font-weight: bold; 
+        float: right;
+        padding: 0px;
+        width: 150px;
+        height: 50px;
+        border: none;
+        font-size: 25px;
+        cursor: pointer;
+      }
+    </style>
+    
+  </head>
+    
+<div class="container-fluid text-center">
+  
+  <h1 class="head">Random Quotes
+  <div class="box">
+    <div class="quote-text">
+    <i class="fa fa-bullhorn" style="font-size:36px; padding-top:10px; color:#A385C2"></i><span>  </span><span class="quote"></span><br><br>
+    </div>
+<span class="author"></span><br><br>
+    <div>
+        <i class="fa fa-twitter" id="tweet-button" title="Tweet this quote!"></i>
+        <i class="fa fa-tumblr" id="tumblr-button" title="Post this quote on tumblr!"></i>
+      <button class="btn" type="submit">New Quote</button>
+    </div>
+  </div>
+  </h1>
+</div>
+</html>
